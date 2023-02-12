@@ -53,26 +53,15 @@ body {
   }
 
   table {
-    border-collapse: collapse; /* 表の線を結合する */
-    border: 1px solid lightgray; /* 線の色と太さ */
+    border-collapse: collapse;
   }
   
-  td, th {
-    border: 1px solid lightgray; /* 線の色と太さ */
-    padding: 8px; /* セル内のスペース */
-  }
-
-  .career-item p:first-of-type {
-    color: skyblue;
-    float: left;
-    margin-right: 10px;
+  .period-cell::before {
+    content: "・";
+    color: aqua;
   }
   
-  .career-item p:last-of-type {
-    margin: 0;
-  }
-  
-  .career-item {
+  .content-cell {
+    padding-left: 1em;
     border-bottom: 1px solid lightgray;
-    padding: 10px 0;
   }
