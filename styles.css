@@ -72,22 +72,6 @@ body {
     box-shadow: 2px 2px 5px rgb(117, 117, 117);
   }
 
-  .date {
-    display: inline-block;
-    /*width:90px;*/
-    text-align: left;
-  }
-  
-  .title {
-    display: inline-block;
-    /*width: calc(1000px);*/
-    text-align: left;
-  }
-
-  .date, .title {
-    padding-right: 100px;
-  }
-
   ul {
     text-align: center;
   }
@@ -108,4 +92,8 @@ body {
 
   .desc {
     color: gray;
+  }
+
+  .timeline-date {
+    text-align: left;
   }
