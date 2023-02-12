@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: left;
+    text-align: center;
   }
   
   table {
@@ -50,22 +50,4 @@ body {
   #my-photo-id {
     border-radius: 100%;
     box-shadow: 2px 2px 8px rgb(117, 117, 117);
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  li {
-    border-left: 4px solid gray;
-    padding-left: 10px;
-    margin-bottom: 10px;
-  }
-
-  li:first-child {
-    color: aquamarine;
-    list-style: circle inside;
-    background-color: lightblue;
-    padding: 5px;
   }
