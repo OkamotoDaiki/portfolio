@@ -65,4 +65,7 @@ body {
 
   li:first-child {
     color: aquamarine;
+    list-style: circle inside;
+    background-color: lightblue;
+    padding: 5px;
   }
