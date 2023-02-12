@@ -57,7 +57,7 @@ body {
   .rectangle {
     position: absolute;
     z-index: -1;
-    width: 660px;
+    width: 1320px;
     height: 450px;
     background-color: #ffffff;
     left: 20px;
