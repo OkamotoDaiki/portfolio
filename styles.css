@@ -72,14 +72,6 @@ body {
     box-shadow: 2px 2px 5px rgb(117, 117, 117);
   }
 
-  ul {
-    text-align: center;
-  }
-
-  h3 {
-    text-align: center;
-  }
-
   table {
     border-collapse: collapse; /* 表の線を結合する */
     border: 1px solid lightgray; /* 線の色と太さ */
