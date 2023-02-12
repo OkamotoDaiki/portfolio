@@ -28,3 +28,11 @@ body {
   a {
     text-decoration: none;
   }
+
+  .devicon-facebook-plain {
+    font-size: 48px;
+  }
+
+  .devicon-github-original {
+    font-size: 48px;
+  }
