@@ -62,42 +62,17 @@ body {
     padding: 8px; /* セル内のスペース */
   }
 
-  .career {
-    padding: 20px;
-  }
-  
-  .career h3 {
-    margin-bottom: 20px;
-  }
-  
-  .career ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .career li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .career li:before {
-    content: "・";
-    position: absolute;
-    left: 0;
-    top: 0;
+  .career-item p:first-of-type {
     color: skyblue;
-  }
-  
-  .career .period {
-    display: inline-block;
-    width: 140px;
-    text-align: right;
+    float: left;
     margin-right: 10px;
   }
   
-  .career .content {
-    display: inline-block;
-    border-bottom: 1px solid gray;
+  .career-item p:last-of-type {
+    margin: 0;
+  }
+  
+  .career-item {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
   }
