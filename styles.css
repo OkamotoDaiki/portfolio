@@ -57,7 +57,7 @@ body {
   .rectangle {
     position: absolute;
     z-index: -1;
-    width: 1320px;
+    width: 1200px;
     height: 450px;
     background-color: #ffffff;
     left: 20px;
@@ -80,8 +80,12 @@ body {
   
   .title {
     display: inline-block;
-    width: calc(110% - 120px);
+    width: calc(105% - 120px);
     text-align: left;
+  }
+
+  ul {
+    text-align: center;
   }
 
   h3 {
