@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  img {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  font[size="6"] {
+    font-weight: bold;
+  }
+  
+  hr {
+    width: 50%;
+  }
+  
+  ur {
+    list-style-type: square;
+    margin-left: 40px;
+  }
