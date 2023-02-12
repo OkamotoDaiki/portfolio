@@ -80,7 +80,7 @@ body {
   
   .title {
     display: inline-block;
-    width: calc(100%);
+    width: calc(50%);
     text-align: left;
   }
 
