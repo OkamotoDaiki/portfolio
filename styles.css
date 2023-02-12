@@ -57,7 +57,7 @@ body {
   .rectangle {
     position: absolute;
     z-index: -1;
-    width: 1250px;
+    width: 1230px;
     height: 450px;
     background-color: #ffffff;
     left: 20px;
@@ -80,7 +80,7 @@ body {
   
   .title {
     display: inline-block;
-    width: calc(75%);
+    width: calc(120px);
     text-align: left;
   }
 
