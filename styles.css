@@ -24,3 +24,7 @@ body {
     list-style-type: square;
     margin-left: 40px;
   }
+
+  a {
+    text-decoration: none;
+  }
