@@ -18,8 +18,9 @@ body {
   
   hr {
     width: 50%;
+    border-color: lightgray;
   }
-  
+
   ur {
     list-style-type: square;
     margin-left: 40px;
