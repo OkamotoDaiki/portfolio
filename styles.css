@@ -59,7 +59,11 @@ body {
     z-index: -1;
     width: 1920px;
     height: 400px;
-    background-color: #00ff00;
+    background-color: #ffffff;
     left: 0px;
     top: 0px;
+  }
+
+  #rectangle {
+    box-shadow: 2px 2px 5px #ccc;
   }
