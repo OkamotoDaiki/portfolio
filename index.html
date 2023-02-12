@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      .career {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      .career .period {
+        width: 30%;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 10px;
+      }
+      .career .content {
+        width: 70%;
+        font-weight: bold;
+        text-align: left;
+      }
+      .career .line {
+        border-bottom: 2px solid gray;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
@@ -29,20 +55,14 @@
     </table>
     <hr>
     <br><font size="6">Career</font></br>
-    <table>
-      <tr>
-        <td class="period-cell">2022.05~</td>
-        <td class="content-cell">キャリアブレイク</td>
-      </tr>
-      <tr>
-        <td class="period-cell">2020.04-2022.05</td>
-        <td class="content-cell">プログレス・テクノロジーズ株式会社</td>
-      </tr>
-      <tr>
-        <td class="period-cell">2019.04-2020.03</td>
-        <td class="content-cell">株式会社エス・エム・エス</td>
-      </tr>
-    </table>
+    <div class="career">
+      <div class="period">2022.05~</div>
+      <div class="content">キャリアブレイク</div>
+      <div class="period">2020.04-2022.05</div>
+      <div class="content">プログレス・テクノロジーズ株式会社</div>
+      <div class="period">2019.04-2020.03</div>
+      <div class="content">株式会社エス・エム・エス</div>
+    </div>
     <hr>
     <br><font size="6">Account</font></br>
       <a href="https://github.com/OkamotoDaiki">
