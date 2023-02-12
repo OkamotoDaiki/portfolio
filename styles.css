@@ -58,8 +58,8 @@ body {
     position: absolute;
     z-index: -1;
     width: 1920px;
-    height: 540px;
+    height: 400px;
     background-color: #00ff00;
-    left: 50px;
-    top: 50px;
+    left: 0px;
+    top: 0px;
   }
