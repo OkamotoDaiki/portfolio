@@ -36,3 +36,15 @@ body {
   .devicon-github-original {
     font-size: 48px;
   }
+
+  .devicon-linkedin-plain {
+    font-size: 48px;
+  }
+
+  .my-photo-class {
+    border-radius: 100%;
+  }
+
+  #your-id-name {
+    border-radius: 100%;
+  }
