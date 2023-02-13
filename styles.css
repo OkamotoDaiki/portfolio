@@ -49,6 +49,7 @@ body {
   }
 
   #my-photo-id {
+    margin-top: 20px;
     border-radius: 100%;
     box-shadow: 2px 2px 8px rgb(117, 117, 117);
   }
