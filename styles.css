@@ -54,22 +54,11 @@ body {
     box-shadow: 2px 2px 8px rgb(117, 117, 117);
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* 親要素の幅いっぱいに要素を配置する */
-    height: 100%; /* 親要素の高さいっぱいに要素を配置する */
-}
-
   .rectangle {
-    position: absolute;
-    z-index: -1;
+    margin: auto;
     width: 1230px;
     height: 430px;
     background-color: #ffffff;
-    left: 20px;
-    top: 20px;
 
     border-radius: 5%;
     box-shadow: 2px 2px 5px rgb(117, 117, 117);
