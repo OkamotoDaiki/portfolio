@@ -7,15 +7,30 @@ body {
     margin: auto;
   }
 
-  img {
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    /*width: 600px;
-    height: auto;*/
+  /*index image*/
+  img[src="./photo_index/TES_logo.png"] {
+    width: 400px;
+    height: auto;
   }
 
-  img[src="./photo/profile_photo.jpg"] {
+  img[src="./photo_index/household_management.png"] {
+    width: 300px;
+    height: auto;
+  }
+
+  img[src="./photo_index/buy_onestop.png"] {
+    width: 500px;
+    height: auto;
+  }
+
+  img[src="./photo_index/LINE_QR_image.png"] {
+    width: 400px;
+    height: auto;
+  }
+
+
+  /*portfolio image*/
+  img[src="./photo_portfolio/profile_photo.jpg"] {
     width: 600px;
     height: auto;
   }
@@ -61,21 +76,6 @@ body {
     box-shadow: 2px 2px 8px rgb(117, 117, 117);
   }
 
-  .rectangle {
-    margin: auto;
-    width: 1230px;
-    height: 430px;
-    background-color: #ffffff;
-
-    border-radius: 5%;
-    box-shadow: 2px 2px 5px rgb(117, 117, 117);
-  }
-
-  #rectangle {
-    border-radius: 5%;
-    box-shadow: 2px 2px 5px rgb(117, 117, 117);
-  }
-
   table {
     border-collapse: collapse; /* 表の線を結合する */
     border: 1px solid lightgray; /* 線の色と太さ */
@@ -99,27 +99,82 @@ body {
     list-style:none;
   }
 
-  /* （スマホ） */
-  @media (max-width:599px) {
-    img[src="./photo/profile_photo.jpg"] {
-      width: 100%;
-      height: auto;
-    }
-
-    .rectangle {
+  /* （スマホ TES_logo） */
+  @media (max-width:399px) {
+    img[src="./photo_index/TES_logo.png"] {
       width: 100%;
       height: auto;
     }
   }
 
-  /* （タブレット） */
+  /* （タブレット TES_logo） */
 @media screen and (max-width: 1024px) {
-    img[src="./photo/profile_photo.jpg"] {
+    img[src="./photo_index/TES_logo.png"] {
       width: 100%;
       height: auto;
     }
+  }
 
-    .rectangle {
+/* （スマホ household_management） */
+@media (max-width:399px) {
+  img[src="./photo_index/household_management.png"] {
+    width: 100%;
+    height: auto;
+  }
+}
+  
+/* （タブレット household_management） */
+@media screen and (max-width: 1024px) {
+    img[src="./photo_index/household_management.png"] {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+/* （スマホ buy_onestop） */
+@media (max-width:399px) {
+  img[src="./photo_index/buy_onestop.png"] {
+    width: 100%;
+    height: auto;
+  }
+}
+  
+/* （タブレット household_management） */
+@media screen and (max-width: 1024px) {
+    img[src="./photo_index/buy_onestop.png"] {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+/* （スマホ LINE_QR_image.png） */
+@media (max-width:399px) {
+  img[src="./photo_index/LINE_QR_image.png"] {
+    width: 100%;
+    height: auto;
+  }
+}
+  
+/* （タブレット LINE_QR_image.png） */
+@media screen and (max-width: 1024px) {
+    img[src="./photo_index/LINE_QR_image.png"] {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+/* （スマホ portfolio） */
+@media (max-width:399px) {
+  img[src="./photo_portfolio/profile_photo.jpg"] {
+    width: 100%;
+    height: auto;
+  }
+}
+
+  /* （タブレット portfolio） */
+@media screen and (max-width: 1024px) {
+    img[src="./photo_portfolio/profile_photo.jpg"] {
       width: 100%;
       height: auto;
     }
