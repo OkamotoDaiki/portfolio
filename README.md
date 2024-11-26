@@ -1,2 +1,5 @@
+# homepage
+[URL](https://tes-digitalbiz.jp/)
+
 # portfolio
-[URL](https://okamotodaiki.jp/)
+[URL](https://tes-digitalbiz.jp/portfolio.html)
